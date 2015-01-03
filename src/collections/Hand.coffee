@@ -5,7 +5,12 @@ class window.Hand extends Backbone.Collection
 
   stand: ->
     @each (card) ->
-      if !card.get 'revealed' then card.flip()
+      if !card.get 'revealed'
+        card.flip()
+
+        #disable hit and stand buttons when player done playing
+        $('.hit-button').prop("disabled",true);
+        $('.stand-button').prop("disabled",true);
       @
 
   hit: ->
