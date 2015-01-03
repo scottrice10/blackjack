@@ -5,7 +5,6 @@ body {
 
 .card {
   float: left;
-  border: solid 1px black;
   width: 120px;
   border-radius: 5px;
   height: 175px;
@@ -34,27 +33,27 @@ body {
   margin-top: 40px;
 }
 
+.player, .dealer, .push, .blackjack {
+  font-size: 50px;
+}
+
 .player {
   color: green;
-  font-size: 40px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .dealer {
   color: darkred;
-  font-size: 40px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .push {
   color: blue;
-  font-size: 40px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .blackjack {
   color: goldenrod;
-  font-size: 40px;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
